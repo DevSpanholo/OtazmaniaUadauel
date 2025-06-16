@@ -1,0 +1,48 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+   "totalSimulations": 10000,
+    "concurrency": 3,
+    "debug": true,
+    "logLevel": "info",
+    "userAgentType": "mobile",
+    "dataOptions": {
+      "useRealNames": true,
+      "enableProxies": true,
+      "proxyList": [
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959",
+        "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959"
+      ]
+    },
+    "browserOptions": {
+      "headless": true,
+      "slowMo": 50,
+      "locale": "pt-BR",
+      "timezoneId": "America/Sao_Paulo",
+      "network": {
+        "offline": false,
+        "latency": 100,
+        "downloadThroughput": 1024000,
+        "uploadThroughput": 512000
+      }
+    },
+    "simulationSteps": {
+      "initialWait": [5000, 8000],
+      "humanInteractionInterval": [3000, 6000],
+      "scrollDepthPercentage": [30, 80],
+      "adClickProbability": 0.7,
+      "formFillSpeed": [200, 500]
+    },
+    "trackingParams": {
+      "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+      "leadSourceParam": "utm_source",
+      "campaignParam": "utm_campaign"
+    }
+  }

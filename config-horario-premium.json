@@ -1,0 +1,105 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 200,
+  "concurrency": 1,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": true,
+    "proxyRotationInterval": 10,
+    "preferBrazilianProxies": true,
+    "proxyList": [
+      "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959"
+    ]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 800,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 250,
+      "downloadThroughput": 768000,
+      "uploadThroughput": 384000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [30000, 45000],
+    "humanInteractionInterval": [15000, 30000],
+    "scrollDepthPercentage": [80, 100],
+    "adClickProbability": 1.0,
+    "formFillSpeed": [1000, 2000],
+    "pageLoadTimeout": 240000,
+    "elementWaitTimeout": 45000,
+    "readingTime": [90000, 180000],
+    "interactionPauses": [8000, 15000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": true,
+    "overlayCloseAttempts": 10,
+    "adInteractionDelay": [6000, 12000],
+    "formValidationWait": [4000, 8000],
+    "multipleAdInteractions": true,
+    "contentAnalysis": true,
+    "socialSharing": true
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign",
+    "sessionDuration": [420000, 900000],
+    "bounceRateOptimization": true,
+    "engagementTracking": true,
+    "conversionTracking": true
+  },
+  "qualitySettings": {
+    "enableUltraHumanBehavior": true,
+    "antiDetectionLevel": "maximum",
+    "cookieConsent": true,
+    "geolocationVariation": true,
+    "deviceFingerprintRotation": true,
+    "referrerVariation": [
+      "https://l.facebook.com/",
+      "https://www.facebook.com/",
+      "https://m.facebook.com/",
+      "https://www.google.com/",
+      "https://www.google.com.br/",
+      "https://www.youtube.com/",
+      "https://www.instagram.com/",
+      "https://twitter.com/",
+      "https://www.linkedin.com/",
+      "https://www.tiktok.com/"
+    ],
+    "premiumBehaviors": {
+      "multiplePageViews": true,
+      "socialMediaSimulation": true,
+      "searchEngineSimulation": true,
+      "contentEngagement": true,
+      "videoInteraction": true,
+      "formInteraction": true,
+      "downloadSimulation": true,
+      "commentSimulation": true,
+      "shareSimulation": true
+    }
+  },
+  "ecpmOptimization": {
+    "targetEcpm": 12.0,
+    "premiumHours": ["20:00-21:00"],
+    "weekendBoost": true,
+    "adViewabilityTime": [10000, 20000],
+    "contentReadingDepth": 100,
+    "socialSignals": true,
+    "brandSafety": true,
+    "premiumAudience": true,
+    "highValueActions": true
+  },
+  "scheduling": {
+    "runOnlyDuringPremiumHours": true,
+    "avoidLowValueHours": ["02:00-06:00"],
+    "prioritizeWeekends": true,
+    "holidayBoost": true
+  }
+}

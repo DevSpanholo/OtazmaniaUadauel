@@ -1,0 +1,43 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 5,
+  "concurrency": 1,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": true,
+    "proxyRotationInterval": 1,
+    "preferBrazilianProxies": true,
+     "proxyList": [
+    "http://pc7VkcuMT8-mob-br:PC_6WbcIGF4MHnVyKOxb@proxy-us.proxy-cheap.com:5959"
+    ]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 100,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 100,
+      "downloadThroughput": 2048000,
+      "uploadThroughput": 1024000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [3000, 5000],
+    "humanInteractionInterval": [2000, 4000],
+    "scrollDepthPercentage": [30, 80],
+    "adClickProbability": 0.7,
+    "formFillSpeed": [200, 400],
+    "pageLoadTimeout": 60000,
+    "elementWaitTimeout": 15000
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign"
+  }
+}

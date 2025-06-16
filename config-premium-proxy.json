@@ -1,0 +1,80 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/concorra-e-ganhe-um-iphone-com-o-cifra-do-bem?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 10000,
+  "concurrency": 2,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": true,
+    "proxyRotationInterval": 25,
+    "preferBrazilianProxies": true,
+    "proxyList": [
+    "http://pc7VkcuMT8-mob-br:PC_6WbcIGF4MHnVyKOxb@proxy-us.proxy-cheap.com:5959"
+    ]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 150,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 120,
+      "downloadThroughput": 2048000,
+      "uploadThroughput": 1024000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [8000, 15000],
+    "humanInteractionInterval": [10000, 20000],
+    "scrollDepthPercentage": [40, 85],
+    "adClickProbability": 0.95,
+    "formFillSpeed": [300, 700],
+    "pageLoadTimeout": 90000,
+    "elementWaitTimeout": 20000,
+    "readingTime": [60000, 120000],
+    "interactionPauses": [2000, 5000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": true,
+    "overlayCloseAttempts": 3,
+    "adInteractionDelay": [5000, 10000],
+    "formValidationWait": [1500, 3000]
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign",
+    "sessionDuration": [300000, 600000],
+    "bounceRateOptimization": true
+  },
+  "qualitySettings": {
+    "enableUltraHumanBehavior": true,
+    "antiDetectionLevel": "enterprise",
+    "cookieConsent": true,
+    "geolocationVariation": true,
+    "deviceFingerprintRotation": true,
+    "referrerVariation": [
+      "https://l.facebook.com/",
+      "https://www.facebook.com/",
+      "https://m.facebook.com/",
+      "https://www.google.com/",
+      "https://www.google.com.br/",
+      "https://www.youtube.com/",
+      "https://www.instagram.com/",
+      "https://twitter.com/",
+      "https://www.linkedin.com/"
+    ]
+  },
+  "ecpmOptimization": {
+    "targetEcpm": 10.0,
+    "premiumHours": ["18:00-23:00"],
+    "weekendBoost": true,
+    "adViewabilityTime": [8000, 15000],
+    "contentReadingDepth": 95,
+    "socialSignals": true,
+    "brandSafety": true
+  }
+}

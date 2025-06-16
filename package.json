@@ -1,0 +1,20 @@
+{
+  "name": "lead-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lead simulation tool for testing tracking systems",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js --debug",
+    "test": "node test-connection.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "chalk": "^4.1.2",
+    "user-agents": "^1.0.1444",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "proxy-chain": "^2.3.0",
+    "commander": "^11.1.0"
+  }
+}

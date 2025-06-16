@@ -1,0 +1,78 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 5000,
+  "concurrency": 10,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": false,
+    "proxyRotationInterval": 1,
+    "preferBrazilianProxies": true,
+    "proxyList": [
+      "http://pc7VkcuMT8-mob-br:PC_6WbcIGF4MHnVyKOxb@proxy-us.proxy-cheap.com:5959"
+    ]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 100,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 100,
+      "downloadThroughput": 2048000,
+      "uploadThroughput": 1024000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [1000, 2000],
+    "humanInteractionInterval": [1000, 2000],
+    "scrollDepthPercentage": [40, 60],
+    "adClickProbability": 0.7,
+    "formFillSpeed": [200, 400],
+    "pageLoadTimeout": 60000,
+    "elementWaitTimeout": 8000,
+    "readingTime": [8000, 12000],
+    "interactionPauses": [1000, 2000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": false,
+    "overlayCloseAttempts": 2,
+    "adInteractionDelay": [1500, 2500],
+    "formValidationWait": [1000, 1500]
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign",
+    "sessionDuration": [10000, 15000],
+    "bounceRateOptimization": true
+  },
+  "qualitySettings": {
+    "enableUltraHumanBehavior": true,
+    "antiDetectionLevel": "high",
+    "cookieConsent": true,
+    "geolocationVariation": true,
+    "deviceFingerprintRotation": true,
+    "referrerVariation": [
+      "https://l.facebook.com/",
+      "https://www.facebook.com/"
+    ],
+    "premiumBehaviors": {
+      "multiplePageViews": true,
+      "socialMediaSimulation": false,
+      "searchEngineSimulation": false,
+      "contentEngagement": true
+    }
+  },
+  "ecpmOptimization": {
+    "targetEcpm": 28.0,
+    "premiumHours": ["12:00-14:00", "18:00-23:00"],
+    "weekendBoost": true,
+    "adViewabilityTime": [4000, 8000],
+    "contentReadingDepth": 70,
+    "socialSignals": true
+  }
+}

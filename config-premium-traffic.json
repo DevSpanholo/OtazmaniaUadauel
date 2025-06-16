@@ -1,0 +1,93 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 500,
+  "concurrency": 1,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": true,
+    "proxyRotationInterval": 15,
+    "preferBrazilianProxies": true,
+    "proxyList": [
+      "http://pcJVW796co-mob-any:PC_23DUpTKrH3CUWldBq@proxy-us.proxy-cheap.com:5959"
+    ]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 500,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 200,
+      "downloadThroughput": 1024000,
+      "uploadThroughput": 512000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [20000, 35000],
+    "humanInteractionInterval": [12000, 25000],
+    "scrollDepthPercentage": [70, 100],
+    "adClickProbability": 0.98,
+    "formFillSpeed": [800, 1500],
+    "pageLoadTimeout": 180000,
+    "elementWaitTimeout": 30000,
+    "readingTime": [60000, 120000],
+    "interactionPauses": [5000, 12000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": true,
+    "overlayCloseAttempts": 8,
+    "adInteractionDelay": [4000, 8000],
+    "formValidationWait": [3000, 6000],
+    "multipleAdInteractions": true,
+    "contentAnalysis": true
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign",
+    "sessionDuration": [300000, 600000],
+    "bounceRateOptimization": true,
+    "engagementTracking": true
+  },
+  "qualitySettings": {
+    "enableUltraHumanBehavior": true,
+    "antiDetectionLevel": "enterprise",
+    "cookieConsent": true,
+    "geolocationVariation": true,
+    "deviceFingerprintRotation": true,
+    "referrerVariation": [
+      "https://l.facebook.com/",
+      "https://www.facebook.com/",
+      "https://m.facebook.com/",
+      "https://www.google.com/",
+      "https://www.google.com.br/",
+      "https://www.youtube.com/",
+      "https://www.instagram.com/",
+      "https://twitter.com/",
+      "https://www.linkedin.com/"
+    ],
+    "premiumBehaviors": {
+      "multiplePageViews": true,
+      "socialMediaSimulation": true,
+      "searchEngineSimulation": true,
+      "contentEngagement": true,
+      "videoInteraction": true,
+      "formInteraction": true,
+      "downloadSimulation": true
+    }
+  },
+  "ecpmOptimization": {
+    "targetEcpm": 10.0,
+    "premiumHours": ["19:00-22:00"],
+    "weekendBoost": true,
+    "adViewabilityTime": [8000, 15000],
+    "contentReadingDepth": 95,
+    "socialSignals": true,
+    "brandSafety": true,
+    "premiumAudience": true
+  }
+}

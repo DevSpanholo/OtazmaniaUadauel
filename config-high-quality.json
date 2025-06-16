@@ -1,0 +1,44 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/participe-conquiste-um-playstation-5-ou-um-pc-gamer-com-o-cifra-do-bem?utm_source=335&utm_term=335&cf_ads=335",
+  "totalSimulations": 50,
+  "concurrency": 1,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": false,
+    "proxyList": []
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 500,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 200,
+      "downloadThroughput": 1024000,
+      "uploadThroughput": 512000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [10000, 15000],
+    "humanInteractionInterval": [8000, 15000],
+    "scrollDepthPercentage": [60, 95],
+    "adClickProbability": 0.9,
+    "formFillSpeed": [800, 1500],
+    "pageLoadTimeout": 600000,
+    "elementWaitTimeout": 20000,
+    "readingTime": [15000, 20000],
+    "interactionPauses": [3000, 8000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": true
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign"
+  }
+}

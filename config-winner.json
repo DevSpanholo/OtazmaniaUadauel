@@ -1,0 +1,62 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/concorra-e-ganhe-um-iphone-com-o-cifra-do-bem?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 5000,
+  "concurrency": 2,
+  "debug": false,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": true,
+    "proxyRotationInterval": 25, 
+    "preferBrazilianProxies": true,     
+    "proxyList": [
+      "http://pc7VkcuMT8-mob-br:PC_6WbcIGF4MHnVyKOxb@proxy-us.proxy-cheap.com:5959"
+    ]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 150,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 120,
+      "downloadThroughput": 2048000,
+      "uploadThroughput": 1024000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [8000, 15000],
+    "humanInteractionInterval": [8000, 15000],
+    "scrollDepthPercentage": [40, 85],
+    "adClickProbability": 0.85,
+    "formFillSpeed": [300, 700],
+    "pageLoadTimeout": 90000,
+    "elementWaitTimeout": 20000,
+    "readingTime": [30000, 60000],
+    "interactionPauses": [2000, 5000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": true
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign",
+    "sessionDuration": [180000, 300000],
+    "bounceRateOptimization": true
+  },
+  "qualitySettings": {
+    "enableUltraHumanBehavior": false,
+    "antiDetectionLevel": "medium",
+    "cookieConsent": true,
+    "geolocationVariation": true,
+    "deviceFingerprintRotation": true,
+    "referrerVariation": [
+      "https://l.facebook.com/",
+      "https://www.facebook.com/",
+      "https://m.facebook.com/"
+    ]
+  }
+}

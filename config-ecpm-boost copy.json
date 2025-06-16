@@ -1,0 +1,83 @@
+{
+  "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+  "totalSimulations": 1000,
+  "concurrency": 1,
+  "debug": true,
+  "logLevel": "info",
+  "userAgentType": "mobile",
+  "dataOptions": {
+    "useRealNames": true,
+    "enableProxies": true,
+    "proxyRotationInterval": 25,
+    "preferBrazilianProxies": true,
+    "proxyList": [
+  "http://pc7VkcuMT8-mob-br:PC_6WbcIGF4MHnVyKOxb@proxy-us.proxy-cheap.com:5959"
+]
+  },
+  "browserOptions": {
+    "headless": true,
+    "slowMo": 300,
+    "locale": "pt-BR",
+    "timezoneId": "America/Sao_Paulo",
+    "network": {
+      "offline": false,
+      "latency": 150,
+      "downloadThroughput": 1536000,
+      "uploadThroughput": 768000
+    }
+  },
+  "simulationSteps": {
+    "initialWait": [12000, 20000],
+    "humanInteractionInterval": [8000, 15000],
+    "scrollDepthPercentage": [60, 95],
+    "adClickProbability": 0.95,
+    "formFillSpeed": [600, 1200],
+    "pageLoadTimeout": 120000,
+    "elementWaitTimeout": 25000,
+    "readingTime": [45000, 90000],
+    "interactionPauses": [4000, 8000],
+    "naturalScrolling": true,
+    "mouseMovements": true,
+    "textSelection": true,
+    "overlayCloseAttempts": 5,
+    "adInteractionDelay": [3000, 6000],
+    "formValidationWait": [2000, 4000]
+  },
+  "trackingParams": {
+    "requiredCookies": ["_fbp", "_fbc", "_gcl_aw", "_gcl_au"],
+    "leadSourceParam": "utm_source",
+    "campaignParam": "utm_campaign",
+    "sessionDuration": [240000, 420000],
+    "bounceRateOptimization": true
+  },
+  "qualitySettings": {
+    "enableUltraHumanBehavior": true,
+    "antiDetectionLevel": "maximum",
+    "cookieConsent": true,
+    "geolocationVariation": true,
+    "deviceFingerprintRotation": true,
+    "referrerVariation": [
+      "https://l.facebook.com/",
+      "https://www.facebook.com/",
+      "https://m.facebook.com/",
+      "https://www.google.com/",
+      "https://www.google.com.br/",
+      "https://www.youtube.com/",
+      "https://www.instagram.com/"
+    ],
+    "premiumBehaviors": {
+      "multiplePageViews": true,
+      "socialMediaSimulation": true,
+      "searchEngineSimulation": true,
+      "contentEngagement": true
+    }
+  },
+  "ecpmOptimization": {
+    "targetEcpm": 8.5,
+    "premiumHours": ["18:00-23:00", "12:00-14:00"],
+    "weekendBoost": true,
+    "adViewabilityTime": [5000, 12000],
+    "contentReadingDepth": 85,
+    "socialSignals": true
+  }
+}
