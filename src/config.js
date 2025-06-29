@@ -4,7 +4,7 @@ const chalk = require('chalk');
 
 // Default configuration
 const DEFAULT_CONFIG = {
- "targetUrl": "https://cifradedinheiro.com/acao-solidaria/conquiste-300-reais-semanalmente-com-o-cifra-do-bem/?utm_source=357&utm_term=357&cf_ads=357",
+ "targetUrl": "https://link.cifraads.com/MVwINT?utm_source=vinicius357&utm_term=357",
   totalSimulations: 100,
   concurrency: 3,
   debug: false,
@@ -48,7 +48,8 @@ async function loadConfig(configPath) {
     // Validação de parâmetros obrigatórios
     try {
       const urlParams = new URL(config.targetUrl).searchParams;
-      const requiredParams = ['utm_source', 'utm_term', 'cf_ads'];
+      const requiredParams = ['utm_source', 'utm_term'];
+
 
       for (const param of requiredParams) {
         if (!urlParams.has(param)) {
